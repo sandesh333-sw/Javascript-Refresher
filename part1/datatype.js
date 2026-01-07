@@ -14,3 +14,11 @@ Object: includes things like arrays, dictonaries
 
 Symbol: If you wanna make anything uniquethat is where its used
  */
+
+let score = 102;
+let name = "pulami";
+let isLoggedin = false;
+
+//object
+let teaTypes = ["greentea", "lemontea", "orangetea"];
+let user = {firstname: " sandesh", lastname: "pulami"};
