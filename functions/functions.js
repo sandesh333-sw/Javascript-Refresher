@@ -16,3 +16,14 @@ function orderTea(teaType){
 
 let orderConfirmation = orderTea("chai");
 console.log(orderConfirmation);
+
+//arrow function
+const calculateTotal = (price, quantity) => {
+    return price * quantity;
+}
+/**implicit return 
+ * const calculateTotal = (price, quantity) => price * quantity;
+*/
+
+let totalCost = calculateTotal(10, 40);
+console.log(totalCost);
