@@ -27,3 +27,14 @@ const calculateTotal = (price, quantity) => {
 
 let totalCost = calculateTotal(10, 40);
 console.log(totalCost);
+
+//high order functions
+function makeTea(typeOfTea){
+    return `maketea: is a ${typeOfTea}`;
+}
+function processTeaOrder(fn){
+    return fn('earl grey');
+}
+
+ let order = processTeaOrder(makeTea);
+ console.log(order);
