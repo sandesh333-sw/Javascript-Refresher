@@ -5,3 +5,14 @@ function makeTea(typeOfTea){
 
 let teaOrder = makeTea("lemon tea");
 console.log(teaOrder);
+
+//teaorder function
+function orderTea(teaType){
+    function confirmOrder(){
+        return `Order confirmed`;
+    }
+   return confirmOrder();
+}
+
+let orderConfirmation = orderTea("chai");
+console.log(orderConfirmation);
