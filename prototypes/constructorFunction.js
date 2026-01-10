@@ -13,3 +13,4 @@ function Car(make, model){
 //when creatin object you have to have a new keyword
 let myCar = new Car("Toyota", "Camry");
 console.log(myCar);
+
